@@ -1,0 +1,29 @@
+html, body, #wrapper { height: 100%; }
+
+body {
+  background-color: #b7d4b4;
+}
+
+body > #wrapper { height: auto; min-height: 100%; }
+
+.content-area {
+  width: 1020px;
+  margin: auto;
+}
+
+/*cores apenas para exibir delimitação o tamanho da tag*/
+header { background-color: #54741c;}
+
+article {
+  padding-bottom: 80px;
+  background-color: #52d267;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 80px;
+  margin-top: -80px;
+  background-color: #3737ac;
+}
