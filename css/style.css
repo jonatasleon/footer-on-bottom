@@ -1,29 +1,17 @@
-html, body, #wrapper { height: 100%; }
+/* cores apenas para exibir demonstração do limite */
 
 body {
-  background-color: #b7d4b4;
+    background-color: #93B5FF;
+    color: #fff;
+    font-family: "Helvetica", "Tahoma", sans-serif;
 }
-
-body > #wrapper { height: auto; min-height: 100%; }
-
 .content-area {
-  width: 1020px;
-  margin: auto;
+    width: 1020px;
+    margin: auto;
 }
-
-/*cores apenas para exibir delimitação o tamanho da tag*/
-header { background-color: #54741c;}
-
+header, footer {
+    background-color: #0A00D1;
+}
 article {
-  padding-bottom: 80px;
-  background-color: #52d267;
-}
-
-footer {
-  clear: both;
-  position: relative;
-  z-index: 10;
-  height: 80px;
-  margin-top: -80px;
-  background-color: #3737ac;
+    background-color: #0041CF;
 }
